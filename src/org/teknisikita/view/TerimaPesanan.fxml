@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="567.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.teknisikita.controller.TerimaPesananController">
+    <children>
+        <TableView fx:id="PesanTB" layoutX="14.0" layoutY="91.0" prefHeight="200.0" prefWidth="551.0">
+            <columns>
+                <TableColumn fx:id="idP" prefWidth="76.0" text="ID User" />
+                <TableColumn fx:id="namaP" prefWidth="135.0" text="Nama" />
+                <TableColumn fx:id="alamatP" prefWidth="120.0" text="Alamat" />
+                <TableColumn fx:id="tglP" prefWidth="208.0" text="Tanggal Transaksi" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
